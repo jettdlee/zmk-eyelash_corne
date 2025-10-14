@@ -138,7 +138,7 @@
             display-name = "SYMBOL";
             bindings = <
 &kp GRAVE   &kp EXCL       &kp AT            &kp LS(NUMBER_3)  &kp DOLLAR  &kp PRCNT                    &trans          &kp CARET          &kp AMPS          &kp ASTRK          &kp LPAR   &kp RPAR   &trans
-&trans      &none          &kp LA(NUMBER_2)  &kp NON_US_HASH   &none       &none                &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp UNDER  &trans
+&trans      &none          &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &none       &none                &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp UNDER  &trans
 &kp LSHIFT  &kp BACKSLASH  &none             &none             &none       &none      &trans            &trans          &kp SINGLE_QUOTE   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL  &kp PLUS   &trans
                                              &kp LCTRL         &trans      &trans                                       &trans             &trans            &trans
             >;
