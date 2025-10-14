@@ -180,13 +180,18 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        board_left {
+        board_left_win {
             if-layers = <2 5>;
             then-layer = <6>;
         };
 
         board_right {
             if-layers = <4 5>;
+            then-layer = <6>;
+        };
+
+        board_left_mac {
+            if-layers = <5 3>;
             then-layer = <6>;
         };
     };
