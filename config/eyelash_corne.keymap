@@ -131,13 +131,10 @@
 
         rgb_layer {
             bindings = <
-&rgb_ug RGB_COLOR_HSB(235,71,71)  &rgb_ug RGB_COLOR_HSB(235,126,71)  &rgb_ug RGB_COLOR_HSB(235,180,71)  &rgb_ug RGB_COLOR_HSB(235,235,71)  &rgb_ug RGB_COLOR_HSB(180,235,71)  &rgb_ug RGB_COLOR_HSB(126,235,71)       &trans
-&rgb_ug RGB_COLOR_HSB(71,235,71)  &rgb_ug RGB_COLOR_HSB(71,235,126)  &rgb_ug RGB_COLOR_HSB(71,235,180) &rgb_ug RGB_COLOR_HSB(71,235,235)  &rgb_ug RGB_COLOR_HSB(71,180,235)  &rgb_ug RGB_COLOR_HSB(71,126,235) 
-&rgb_ug RGB_COLOR_HSB(163,41,41)  &rgb_ug RGB_COLOR_HSB(163,82,41)   &rgb_ug RGB_COLOR_HSB(163,122,41)  &rgb_ug RGB_COLOR_HSB(163,163,41)  &rgb_ug RGB_COLOR_HSB(122,163,41)  &rgb_ug RGB_COLOR_HSB(82,163,41)  &trans &trans &trans
-&rgb_ug RGB_COLOR_HSB(41,163,41)  &rgb_ug RGB_COLOR_HSB(41,163,82)   &rgb_ug RGB_COLOR_HSB(41,163,122)  &rgb_ug RGB_COLOR_HSB(41,163,163)  &rgb_ug RGB_COLOR_HSB(41,122,163)  &rgb_ug RGB_COLOR_HSB(41,82,163)  
-&rgb_ug RGB_COLOR_HSB(138,15,15)  &rgb_ug RGB_COLOR_HSB(138,56,15)   &rgb_ug RGB_COLOR_HSB(138,97,15)      &rgb_ug RGB_COLOR_HSB(138,138,15)  &rgb_ug RGB_COLOR_HSB(97,138,15)  &rgb_ug RGB_COLOR_HSB(56,138,15)  &trans &trans  
-&rgb_ug RGB_COLOR_HSB(15,138,15)  &rgb_ug RGB_COLOR_HSB(15,138,56)            &rgb_ug RGB_COLOR_HSB(15,138,97)  &rgb_ug RGB_COLOR_HSB(15,138,138)  &rgb_ug RGB_COLOR_HSB(15,97,138)  &rgb_ug RGB_COLOR_HSB(15,56,138)  
-                                                 &trans  &trans  &trans                                    &trans  &trans  &trans
+&rgb_ug RGB_COLOR_HSB(353,99,50)  &rgb_ug RGB_COLOR_HSB(30,100,50)  &rgb_ug RGB_COLOR_HSB(45,100,50)   &rgb_ug RGB_COLOR_HSB(61,100,50)   &rgb_ug RGB_COLOR_HSB(68,100,50)   &rgb_ug RGB_COLOR_HSB(126,100,50)                    &trans          &rgb_ug RGB_COLOR_HSB(162,100,50)  &rgb_ug RGB_COLOR_HSB(183,100,49)  &rgb_ug RGB_COLOR_HSB(210,100,50)  &rgb_ug RGB_COLOR_HSB(237,100,50)  &rgb_ug RGB_COLOR_HSB(275,100,50)  &rgb_ug RGB_COLOR_HSB(313,100,50)
+&rgb_ug RGB_COLOR_HSB(0,100,34)   &rgb_ug RGB_COLOR_HSB(43,100,35)  &rgb_ug RGB_COLOR_HSB(163,122,41)  &rgb_ug RGB_COLOR_HSB(163,163,41)  &rgb_ug RGB_COLOR_HSB(122,163,41)  &rgb_ug RGB_COLOR_HSB(82,163,41)             &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(41,163,41)   &rgb_ug RGB_COLOR_HSB(41,163,82)   &rgb_ug RGB_COLOR_HSB(41,163,122)  &rgb_ug RGB_COLOR_HSB(41,163,163)  &rgb_ug RGB_COLOR_HSB(41,122,163)  &rgb_ug RGB_COLOR_HSB(41,82,163)
+&rgb_ug RGB_COLOR_HSB(0,100,16)   &rgb_ug RGB_COLOR_HSB(38,100,17)  &rgb_ug RGB_COLOR_HSB(138,97,15)   &rgb_ug RGB_COLOR_HSB(138,138,15)  &rgb_ug RGB_COLOR_HSB(97,138,15)   &rgb_ug RGB_COLOR_HSB(56,138,15)   &trans            &trans          &rgb_ug RGB_COLOR_HSB(15,138,15)   &rgb_ug RGB_COLOR_HSB(15,138,56)   &rgb_ug RGB_COLOR_HSB(15,138,97)   &rgb_ug RGB_COLOR_HSB(15,138,138)  &rgb_ug RGB_COLOR_HSB(15,97,138)   &rgb_ug RGB_COLOR_HSB(15,56,138)
+                                                                                                       &trans                             &trans                             &trans                                                               &trans                             &trans                             &trans
             >;
 
             label = "RGB";
