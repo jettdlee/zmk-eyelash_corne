@@ -125,9 +125,9 @@
         number_layer_mac {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &msc SCRL_UP                     &kp N6    &kp N7        &kp N8  &kp N9     &kp N0  &kp DELETE
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &msc SCRL_DOWN                   &kp N6    &kp N7        &kp N8  &kp N9     &kp N0  &kp DELETE
 &trans  &none   &none   &none   &none   &none            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LEFT  &kp DOWN      &kp UP  &kp RIGHT  &none   &trans
-&trans  &none   &none   &none   &none   &none   &none                    &msc SCRL_DOWN                   &none     &none         &none   &none      &none   &trans
+&trans  &none   &none   &none   &none   &none   &none                    &msc SCRL_UP                     &none     &none         &none   &none      &none   &trans
                         &trans  &trans  &trans                                                            &trans    &kp LEFT_ALT  &trans
             >;
 
@@ -138,7 +138,7 @@
             display-name = "SYMBOL";
             bindings = <
 &kp GRAVE   &kp EXCL       &kp AT            &kp LS(NUMBER_3)  &kp DOLLAR  &kp PRCNT                    &trans          &kp CARET          &kp AMPS          &kp ASTRK          &kp LPAR   &kp RPAR   &trans
-&trans      &none          &kp LA(NUMBER_2)  &kp POUND         &none       &none                &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp UNDER  &trans
+&trans      &none          &kp LA(NUMBER_2)  &kp NON_US_HASH   &none       &none                &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp UNDER  &trans
 &kp LSHIFT  &kp BACKSLASH  &none             &none             &none       &none      &trans            &trans          &kp SINGLE_QUOTE   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL  &kp PLUS   &trans
                                              &kp LCTRL         &trans      &trans                                       &trans             &trans            &trans
             >;
