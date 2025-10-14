@@ -291,8 +291,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   RGB:
   - RGB COLOR HSB(0,100,50)
@@ -337,20 +337,22 @@ layers:
   - RGB COLOR HSB(270,100,15)
   - RGB COLOR HSB(300,100,15)
   - RGB COLOR HSB(330,100,15)
-  - {type: held}
-  - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - RGB HUD
   - RGB SAI
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-- p: [42, 43, 44]
-  k: RGB
 - p: [42, 47]
   k: LEFT WIN
   l: [Win]
 - p: [42, 47]
   k: $$mdi:apple-keyboard-option$$
   l: [Mac]
+- p: [43, 44]
+  k: Board
+- p: [45, 46]
+  k: Board
