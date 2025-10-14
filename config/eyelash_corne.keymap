@@ -60,11 +60,6 @@
             key-positions = <1 15 29>;
         };
 
-        rgb_layer {
-            bindings = <&mo 7>;
-            key-positions = <42 43 44>;
-        };
-
         windows_key {
             bindings = <&kp LEFT_WIN>;
             key-positions = <42 47>;
@@ -75,6 +70,16 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <42 47>;
             layers = <1>;
+        };
+
+        board_layer_left {
+            bindings = <&mo 6>;
+            key-positions = <43 44>;
+        };
+
+        board_layer_right {
+            bindings = <&mo 6>;
+            key-positions = <45 46>;
         };
     };
 
