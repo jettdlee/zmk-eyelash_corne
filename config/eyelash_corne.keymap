@@ -64,6 +64,18 @@
             bindings = <&mo 7>;
             key-positions = <42 43 44>;
         };
+
+        win_key {
+            bindings = <&kp LEFT_META>;
+            key-positions = <42 47>;
+            layers = <0>;
+        };
+
+        meta_key {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <42 47>;
+            layers = <1>;
+        };
     };
 
     keymap {
