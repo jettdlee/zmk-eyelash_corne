@@ -225,7 +225,7 @@ layers:
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
@@ -238,9 +238,9 @@ layers:
   - PAUSE BREAK
   - INS
   - MENU
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
