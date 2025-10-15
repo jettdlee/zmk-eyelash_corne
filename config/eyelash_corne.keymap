@@ -60,26 +60,14 @@
             key-positions = <1 15 29>;
         };
 
-        windows_key {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <42 47>;
-            layers = <0>;
-        };
-
-        option_key {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <42 47>;
-            layers = <1>;
-        };
-
         board_layer_left {
-            bindings = <&mo 6>;
-            key-positions = <43 44>;
+            bindings = <&mo 5>;
+            key-positions = <43 42>;
         };
 
         board_layer_right {
-            bindings = <&mo 6>;
-            key-positions = <45 46>;
+            bindings = <&mo 5>;
+            key-positions = <46 47>;
         };
     };
 
@@ -89,10 +77,10 @@
         default_layer_win {
             display-name = "Win";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E             &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U  &kp I         &kp O    &kp P     &kp BACKSPACE
-&kp TAB         &kp A  &kp S  &kp D             &kp F  &kp G                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K         &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LEFT_CONTROL  &mo 2  &lt 5 SPACE                                                                &lt 5 SPACE  &mo 4  &kp LEFT_ALT
+&kp ESCAPE      &kp Q  &kp W  &kp E  &kp R      &kp T                               &kp UP_ARROW               &kp Y        &kp U         &kp I          &kp O    &kp P     &kp BACKSPACE
+&kp TAB         &kp A  &kp S  &kp D  &kp F      &kp G                     &kp LEFT  &kp ENTER       &kp RIGHT  &kp H        &kp J         &kp K          &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V      &kp B        &kp SPACE              &kp DOWN_ARROW             &kp N        &kp M         &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                              &mo 4  &kp LCTRL  &lt 2 SPACE                                                    &lt 3 SPACE  &kp LEFT_ALT  &kp LEFT_META
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
@@ -101,34 +89,22 @@
         default_layer_mac {
             display-name = "Mac";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E             &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U  &kp I             &kp O    &kp P     &kp BACKSPACE
-&kp TAB         &kp A  &kp S  &kp D             &kp F  &kp G                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K             &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA         &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LEFT_CONTROL  &mo 3  &lt 5 SPACE                                                                &lt 5 SPACE  &mo 4  &kp LEFT_COMMAND
+&kp ESCAPE      &kp Q  &kp W  &kp E  &kp R      &kp T                               &kp UP_ARROW               &kp Y        &kp U          &kp I         &kp O    &kp P     &kp BACKSPACE
+&kp TAB         &kp A  &kp S  &kp D  &kp F      &kp G                     &kp LEFT  &kp ENTER       &kp RIGHT  &kp H        &kp J          &kp K         &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V      &kp B        &kp SPACE              &kp DOWN_ARROW             &kp N        &kp M          &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                              &mo 4  &kp LCTRL  &lt 2 SPACE                                                    &lt 3 SPACE  &kp LEFT_META  &kp LEFT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
         };
 
-        number_layer_win {
+        number_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &msc SCRL_UP                     &kp N6    &kp N7         &kp N8  &kp N9     &kp N0  &kp DELETE
-&trans  &none   &none   &none   &none   &none            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LEFT  &kp DOWN       &kp UP  &kp RIGHT  &none   &trans
-&trans  &none   &none   &none   &none   &none   &none                    &msc SCRL_DOWN                   &none     &none          &none   &none      &none   &trans
-                        &trans  &trans  &mo 5                                                             &trans    &kp LEFT_META  &trans
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        number_layer_mac {
-            display-name = "NUMBER";
-            bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &msc SCRL_DOWN                   &kp N6    &kp N7        &kp N8  &kp N9     &kp N0  &kp DELETE
-&trans  &none   &none   &none   &none   &none            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LEFT  &kp DOWN      &kp UP  &kp RIGHT  &none   &trans
-&trans  &none   &none   &none   &none   &none   &none                    &msc SCRL_UP                     &none     &none         &none   &none      &none   &trans
-                        &trans  &trans  &trans                                                            &trans    &kp LEFT_ALT  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &msc SCRL_UP                     &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &kp DELETE
+&trans  &none   &none   &none   &none   &none            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &none   &none   &none   &none   &none   &none                    &msc SCRL_DOWN                   &none     &none     &trans  &trans     &trans  &trans
+                        &trans  &trans  &trans                                                            &trans    &trans    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -137,10 +113,10 @@
         symbol_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp GRAVE   &kp EXCL       &kp AT            &kp LS(NUMBER_3)  &kp DOLLAR  &kp PRCNT                    &trans          &kp CARET          &kp AMPS          &kp ASTRK          &kp LPAR   &kp RPAR   &trans
-&trans      &none          &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &none       &none                &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp UNDER  &trans
-&kp LSHIFT  &kp BACKSLASH  &none             &none             &none       &none      &trans            &trans          &kp SINGLE_QUOTE   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL  &kp PLUS   &trans
-                                             &kp LCTRL         &trans      &trans                                       &trans             &trans            &trans
+&kp GRAVE   &kp EXCL       &kp AT            &kp LS(NUMBER_3)  &kp DOLLAR  &kp PRCNT                    &trans          &kp CARET          &kp AMPS        &kp ASTRK  &kp LPAR          &kp RPAR           &trans
+&trans      &none          &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &none       &none                &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp LSHIFT  &kp BACKSLASH  &none             &none             &none       &none      &trans            &trans          &kp SINGLE_QUOTE   &kp MINUS       &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
+                                             &kp LCTRL         &trans      &trans                                       &trans             &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -152,7 +128,7 @@
 &kp ESC      &kp F1      &kp F2            &kp F3        &kp F4  &kp F5                          &kp PAGE_UP             &kp F6           &kp F7          &kp F8           &kp F9   &kp F10     &kp F11
 &kp CAPS     &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &trans                &kp HOME  &mkp MCLK      &kp END  &kp HOME         &kp PAGE_UP     &kp PAGE_DOWN    &kp END  &trans      &kp F12
 &bootloader  &kp C_MUTE  &kp C_VOL_DN      &kp C_VOL_UP  &trans  &trans  &kp C_MUTE              &kp PAGE_DOWN           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp INS  &kp C_MENU  &bootloader
-                                           &kp LCTRL     &trans  &trans                                                  &trans           &trans          &kp LEFT_ALT
+                                           &trans        &trans  &trans                                                  &trans           &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -182,22 +158,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        board_left_win {
-            if-layers = <2 5>;
-            then-layer = <6>;
-        };
-
-        board_right {
-            if-layers = <4 5>;
-            then-layer = <6>;
-        };
-
-        board_left_mac {
-            if-layers = <3 5>;
-            then-layer = <6>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
