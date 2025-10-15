@@ -288,12 +288,12 @@ layers:
   - RGB SPI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   RGB:
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(30,100,50)
@@ -346,7 +346,7 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-- p: [43, 42]
+- p: [43, 44]
   k: Board
-- p: [46, 47]
+- p: [46, 45]
   k: Board
