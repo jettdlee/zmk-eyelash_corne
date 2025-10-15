@@ -62,12 +62,12 @@
 
         board_layer_left {
             bindings = <&mo 5>;
-            key-positions = <43 42>;
+            key-positions = <43 44>;
         };
 
         board_layer_right {
             bindings = <&mo 5>;
-            key-positions = <46 47>;
+            key-positions = <46 45>;
         };
     };
 
