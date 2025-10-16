@@ -125,7 +125,7 @@
         function_layer {
             display-name = "Fn";
             bindings = <
-&kp ESC   &kp F1          &kp F2           &kp F3           &kp F4         &kp F5                                &kp PAGE_UP             &kp F6      &kp F7        &kp F8         &kp F9      &kp F10   &kp F11
+&kp DEL   &kp F1          &kp F2           &kp F3           &kp F4         &kp F5                                &kp PAGE_UP             &kp F6      &kp F7        &kp F8         &kp F9      &kp F10   &kp F11
 &kp CAPS  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp INSERT     &kp C_MENU                  &kp HOME  &mkp MCLK      &kp END  &kp HOME    &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END   &kp F12
 &none     &none           &none            &none            &kp C_BRI_DEC  &kp C_BRI_UP  &kp C_MUTE              &kp PAGE_DOWN           &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP   &kp C_PREV  &kp C_PP  &kp C_NEXT
                                            &trans           &trans         &trans                                                        &trans      &trans        &trans
