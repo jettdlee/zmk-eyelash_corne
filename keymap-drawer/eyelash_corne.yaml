@@ -106,7 +106,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:pan-up$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '6', s: ^}
   - '7'
   - '8'
